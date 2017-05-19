@@ -1,0 +1,1705 @@
+08/05/2017 18:05:07test.demo1 wiefjiwhf
+08/05/2017 18:08:36com.lmap.objectRepository.AdminLoginPage Passed       |       login       |       AdminLoginPage
+08/05/2017 18:08:41org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:08:41org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:08:41org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:41org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 10][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:08:41org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:08:41org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:08:41org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19716<->127.0.0.1:7055
+08/05/2017 18:08:41org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-10: set socket timeout to 10800000
+08/05/2017 18:08:41org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:08:41org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:08:41org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:08:41org.apache.http.headers http-outgoing-10 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:08:41org.apache.http.headers http-outgoing-10 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:08:41org.apache.http.headers http-outgoing-10 >> Content-Length: 51
+08/05/2017 18:08:41org.apache.http.headers http-outgoing-10 >> Host: 127.0.0.1:7055
+08/05/2017 18:08:41org.apache.http.headers http-outgoing-10 >> Connection: Keep-Alive
+08/05/2017 18:08:41org.apache.http.headers http-outgoing-10 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:08:41org.apache.http.headers http-outgoing-10 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:08:41org.apache.http.wire http-outgoing-10 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:08:41org.apache.http.wire http-outgoing-10 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:08:41org.apache.http.wire http-outgoing-10 >> "Content-Length: 51[\r][\n]"
+08/05/2017 18:08:41org.apache.http.wire http-outgoing-10 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:08:41org.apache.http.wire http-outgoing-10 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:08:41org.apache.http.wire http-outgoing-10 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:08:41org.apache.http.wire http-outgoing-10 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:08:41org.apache.http.wire http-outgoing-10 >> "[\r][\n]"
+08/05/2017 18:08:41org.apache.http.wire http-outgoing-10 >> "{"using":"xpath","value":".//*[@id='center_name']"}"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-10 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-10 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-10 << "connection: close[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-10 << "content-length: 224[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-10 << "server: httpd.js[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-10 << "date: Mon, 08 May 2017 12:38:42 GMT[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-10 << "[\r][\n]"
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-10 << HTTP/1.1 200 OK
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-10 << content-type: application/json; charset=UTF-8
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-10 << connection: close
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-10 << content-length: 224
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-10 << server: httpd.js
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-10 << date: Mon, 08 May 2017 12:38:42 GMT
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-10 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{613016ed-f5a8-4370-a77b-f4aa98bf7143}","element-6066-11e4-a52e-4f735466cecf":"{613016ed-f5a8-4370-a77b-f4aa98bf7143}"}}"
+08/05/2017 18:08:42org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-10: Close connection
+08/05/2017 18:08:42org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:08:42org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 10][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:42org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:08:42org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:08:42org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:42org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 11][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:08:42org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:08:42org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:08:42org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19717<->127.0.0.1:7055
+08/05/2017 18:08:42org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-11: set socket timeout to 10800000
+08/05/2017 18:08:42org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B613016ed-f5a8-4370-a77b-f4aa98bf7143%7D/click HTTP/1.1
+08/05/2017 18:08:42org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:08:42org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B613016ed-f5a8-4370-a77b-f4aa98bf7143%7D/click HTTP/1.1
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 >> Content-Length: 47
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 >> Host: 127.0.0.1:7055
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 >> Connection: Keep-Alive
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B613016ed-f5a8-4370-a77b-f4aa98bf7143%7D/click HTTP/1.1[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 >> "Content-Length: 47[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 >> "[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 >> "{"id":"{613016ed-f5a8-4370-a77b-f4aa98bf7143}"}"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 << "connection: close[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 << "content-length: 98[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 << "server: httpd.js[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 << "date: Mon, 08 May 2017 12:38:42 GMT[\r][\n]"
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 << "[\r][\n]"
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 << HTTP/1.1 200 OK
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 << content-type: application/json; charset=UTF-8
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 << connection: close
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 << content-length: 98
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 << server: httpd.js
+08/05/2017 18:08:42org.apache.http.headers http-outgoing-11 << date: Mon, 08 May 2017 12:38:42 GMT
+08/05/2017 18:08:42org.apache.http.wire http-outgoing-11 << "{"name":"clickElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":"ok"}"
+08/05/2017 18:08:42org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-11: Close connection
+08/05/2017 18:08:42org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:08:42org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 11][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 12][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19719<->127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-12: set socket timeout to 10800000
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 >> Content-Length: 70
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 >> Host: 127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 >> Connection: Keep-Alive
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 >> "Content-Length: 70[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 >> "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 >> "{"using":"xpath","value":".//*[@id='select-center']/span[2]/input[2]"}"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 << "connection: close[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 << "content-length: 224[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 << "server: httpd.js[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 << "date: Mon, 08 May 2017 12:38:45 GMT[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 << "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 << HTTP/1.1 200 OK
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 << content-type: application/json; charset=UTF-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 << connection: close
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 << content-length: 224
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 << server: httpd.js
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-12 << date: Mon, 08 May 2017 12:38:45 GMT
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-12 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{dbfd6ac3-d935-4275-a957-77fdaa2ebb37}","element-6066-11e4-a52e-4f735466cecf":"{dbfd6ac3-d935-4275-a957-77fdaa2ebb37}"}}"
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-12: Close connection
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 12][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 13][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19720<->127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-13: set socket timeout to 10800000
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bdbfd6ac3-d935-4275-a957-77fdaa2ebb37%7D/value HTTP/1.1
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bdbfd6ac3-d935-4275-a957-77fdaa2ebb37%7D/value HTTP/1.1
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 >> Content-Length: 69
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 >> Host: 127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 >> Connection: Keep-Alive
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bdbfd6ac3-d935-4275-a957-77fdaa2ebb37%7D/value HTTP/1.1[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 >> "Content-Length: 69[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 >> "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 >> "{"id":"{dbfd6ac3-d935-4275-a957-77fdaa2ebb37}","value":["Delhi_hub"]}"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 << "connection: close[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 << "content-length: 101[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 << "server: httpd.js[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 << "date: Mon, 08 May 2017 12:38:45 GMT[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 << "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 << HTTP/1.1 200 OK
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 << content-type: application/json; charset=UTF-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 << connection: close
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 << content-length: 101
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 << server: httpd.js
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-13 << date: Mon, 08 May 2017 12:38:45 GMT
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-13 << "{"name":"sendKeysToElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-13: Close connection
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 13][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 14][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19721<->127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-14: set socket timeout to 10800000
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 >> Content-Length: 70
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 >> Host: 127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 >> Connection: Keep-Alive
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 >> "Content-Length: 70[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 >> "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 >> "{"using":"xpath","value":".//*[@id='select-center']/span[2]/input[2]"}"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 << "connection: close[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 << "content-length: 224[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 << "server: httpd.js[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 << "date: Mon, 08 May 2017 12:38:45 GMT[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 << "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 << HTTP/1.1 200 OK
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 << content-type: application/json; charset=UTF-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 << connection: close
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 << content-length: 224
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 << server: httpd.js
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-14 << date: Mon, 08 May 2017 12:38:45 GMT
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-14 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{dbfd6ac3-d935-4275-a957-77fdaa2ebb37}","element-6066-11e4-a52e-4f735466cecf":"{dbfd6ac3-d935-4275-a957-77fdaa2ebb37}"}}"
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-14: Close connection
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 14][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 15][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19722<->127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-15: set socket timeout to 10800000
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bdbfd6ac3-d935-4275-a957-77fdaa2ebb37%7D/value HTTP/1.1
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bdbfd6ac3-d935-4275-a957-77fdaa2ebb37%7D/value HTTP/1.1
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 >> Content-Length: 63
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 >> Host: 127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 >> Connection: Keep-Alive
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bdbfd6ac3-d935-4275-a957-77fdaa2ebb37%7D/value HTTP/1.1[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 >> "Content-Length: 63[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 >> "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 >> "{"id":"{dbfd6ac3-d935-4275-a957-77fdaa2ebb37}","value":["[0xee][0x80][0x95]"]}"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 << "connection: close[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 << "content-length: 101[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 << "server: httpd.js[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 << "date: Mon, 08 May 2017 12:38:45 GMT[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 << "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 << HTTP/1.1 200 OK
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 << content-type: application/json; charset=UTF-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 << connection: close
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 << content-length: 101
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 << server: httpd.js
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-15 << date: Mon, 08 May 2017 12:38:45 GMT
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-15 << "{"name":"sendKeysToElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-15: Close connection
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 15][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 16][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19723<->127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-16: set socket timeout to 10800000
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 >> Content-Length: 70
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 >> Host: 127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 >> Connection: Keep-Alive
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 >> "Content-Length: 70[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 >> "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 >> "{"using":"xpath","value":".//*[@id='select-center']/span[2]/input[2]"}"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 << "connection: close[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 << "content-length: 224[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 << "server: httpd.js[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 << "date: Mon, 08 May 2017 12:38:45 GMT[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 << "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 << HTTP/1.1 200 OK
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 << content-type: application/json; charset=UTF-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 << connection: close
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 << content-length: 224
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 << server: httpd.js
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-16 << date: Mon, 08 May 2017 12:38:45 GMT
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-16 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{dbfd6ac3-d935-4275-a957-77fdaa2ebb37}","element-6066-11e4-a52e-4f735466cecf":"{dbfd6ac3-d935-4275-a957-77fdaa2ebb37}"}}"
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-16: Close connection
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 16][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:08:45org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 17][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19724<->127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-17: set socket timeout to 10800000
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bdbfd6ac3-d935-4275-a957-77fdaa2ebb37%7D/value HTTP/1.1
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bdbfd6ac3-d935-4275-a957-77fdaa2ebb37%7D/value HTTP/1.1
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 >> Content-Length: 63
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 >> Host: 127.0.0.1:7055
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 >> Connection: Keep-Alive
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bdbfd6ac3-d935-4275-a957-77fdaa2ebb37%7D/value HTTP/1.1[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 >> "Content-Length: 63[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 >> "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 >> "{"id":"{dbfd6ac3-d935-4275-a957-77fdaa2ebb37}","value":["[0xee][0x80][0x87]"]}"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 << "connection: close[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 << "content-length: 101[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 << "server: httpd.js[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 << "date: Mon, 08 May 2017 12:38:45 GMT[\r][\n]"
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 << "[\r][\n]"
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 << HTTP/1.1 200 OK
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 << content-type: application/json; charset=UTF-8
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 << connection: close
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 << content-length: 101
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 << server: httpd.js
+08/05/2017 18:08:45org.apache.http.headers http-outgoing-17 << date: Mon, 08 May 2017 12:38:45 GMT
+08/05/2017 18:08:45org.apache.http.wire http-outgoing-17 << "{"name":"sendKeysToElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:08:45org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-17: Close connection
+08/05/2017 18:08:45org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:08:45org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 17][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:10org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:10org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:10org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:10org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 18][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:10org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:10org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19727<->127.0.0.1:7055
+08/05/2017 18:09:10org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-18: set socket timeout to 10800000
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 >> Content-Length: 51
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 >> Connection: Keep-Alive
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 >> "Content-Length: 51[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 >> "[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 >> "{"using":"xpath","value":"//li/a[text()= 'Admin']"}"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 << "connection: close[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 << "date: Mon, 08 May 2017 12:39:10 GMT[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 << "[\r][\n]"
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 << HTTP/1.1 200 OK
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 << connection: close
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 << content-length: 224
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 << server: httpd.js
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-18 << date: Mon, 08 May 2017 12:39:10 GMT
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-18 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{9dc98c4a-5a03-4bc5-bfd8-95ceef7a270d}","element-6066-11e4-a52e-4f735466cecf":"{9dc98c4a-5a03-4bc5-bfd8-95ceef7a270d}"}}"
+08/05/2017 18:09:10org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-18: Close connection
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:10org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 18][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:10org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:10org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:10org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:10org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 19][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:10org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:10org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19728<->127.0.0.1:7055
+08/05/2017 18:09:10org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-19: set socket timeout to 10800000
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B9dc98c4a-5a03-4bc5-bfd8-95ceef7a270d%7D/click HTTP/1.1
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B9dc98c4a-5a03-4bc5-bfd8-95ceef7a270d%7D/click HTTP/1.1
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 >> Content-Length: 47
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 >> Connection: Keep-Alive
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B9dc98c4a-5a03-4bc5-bfd8-95ceef7a270d%7D/click HTTP/1.1[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 >> "Content-Length: 47[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 >> "[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 >> "{"id":"{9dc98c4a-5a03-4bc5-bfd8-95ceef7a270d}"}"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 << "connection: close[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 << "content-length: 98[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 << "date: Mon, 08 May 2017 12:39:10 GMT[\r][\n]"
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 << "[\r][\n]"
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 << HTTP/1.1 200 OK
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 << connection: close
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 << content-length: 98
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 << server: httpd.js
+08/05/2017 18:09:10org.apache.http.headers http-outgoing-19 << date: Mon, 08 May 2017 12:39:10 GMT
+08/05/2017 18:09:10org.apache.http.wire http-outgoing-19 << "{"name":"clickElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":"ok"}"
+08/05/2017 18:09:10org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-19: Close connection
+08/05/2017 18:09:10org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:10org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 19][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:15org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:15org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:15org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:15org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 20][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:15org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:15org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:15org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19729<->127.0.0.1:7055
+08/05/2017 18:09:15org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-20: set socket timeout to 10800000
+08/05/2017 18:09:15org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:15org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:15org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 >> Content-Length: 65
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 >> Connection: Keep-Alive
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 >> "Content-Length: 65[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 >> "[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 >> "{"using":"xpath","value":".//*[@id='minitabs']/li[2]/ul/li[3]/a"}"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 << "connection: close[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 << "date: Mon, 08 May 2017 12:39:15 GMT[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 << "[\r][\n]"
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 << HTTP/1.1 200 OK
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 << connection: close
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 << content-length: 224
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 << server: httpd.js
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-20 << date: Mon, 08 May 2017 12:39:15 GMT
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-20 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{c63bb743-f874-4cef-8e77-3b4d9470148e}","element-6066-11e4-a52e-4f735466cecf":"{c63bb743-f874-4cef-8e77-3b4d9470148e}"}}"
+08/05/2017 18:09:15org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-20: Close connection
+08/05/2017 18:09:15org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:15org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 20][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:15org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:15org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:15org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:15org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 21][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:15org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:15org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:15org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19730<->127.0.0.1:7055
+08/05/2017 18:09:15org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-21: set socket timeout to 10800000
+08/05/2017 18:09:15org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bc63bb743-f874-4cef-8e77-3b4d9470148e%7D/click HTTP/1.1
+08/05/2017 18:09:15org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:15org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-21 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bc63bb743-f874-4cef-8e77-3b4d9470148e%7D/click HTTP/1.1
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-21 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-21 >> Content-Length: 47
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-21 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-21 >> Connection: Keep-Alive
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-21 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:15org.apache.http.headers http-outgoing-21 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-21 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bc63bb743-f874-4cef-8e77-3b4d9470148e%7D/click HTTP/1.1[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-21 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-21 >> "Content-Length: 47[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-21 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-21 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-21 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-21 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-21 >> "[\r][\n]"
+08/05/2017 18:09:15org.apache.http.wire http-outgoing-21 >> "{"id":"{c63bb743-f874-4cef-8e77-3b4d9470148e}"}"
+08/05/2017 18:09:16org.apache.http.wire http-outgoing-21 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:16org.apache.http.wire http-outgoing-21 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:16org.apache.http.wire http-outgoing-21 << "connection: close[\r][\n]"
+08/05/2017 18:09:16org.apache.http.wire http-outgoing-21 << "content-length: 98[\r][\n]"
+08/05/2017 18:09:16org.apache.http.wire http-outgoing-21 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:16org.apache.http.wire http-outgoing-21 << "date: Mon, 08 May 2017 12:39:16 GMT[\r][\n]"
+08/05/2017 18:09:16org.apache.http.wire http-outgoing-21 << "[\r][\n]"
+08/05/2017 18:09:16org.apache.http.headers http-outgoing-21 << HTTP/1.1 200 OK
+08/05/2017 18:09:16org.apache.http.headers http-outgoing-21 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:16org.apache.http.headers http-outgoing-21 << connection: close
+08/05/2017 18:09:16org.apache.http.headers http-outgoing-21 << content-length: 98
+08/05/2017 18:09:16org.apache.http.headers http-outgoing-21 << server: httpd.js
+08/05/2017 18:09:16org.apache.http.headers http-outgoing-21 << date: Mon, 08 May 2017 12:39:16 GMT
+08/05/2017 18:09:16org.apache.http.wire http-outgoing-21 << "{"name":"clickElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":"ok"}"
+08/05/2017 18:09:16org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-21: Close connection
+08/05/2017 18:09:16org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:16org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 21][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:16utility.Log Passed       |       ClickAdminMenu_cmu()       |       BaseTestNG
+08/05/2017 18:09:17org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:17org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 22][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19731<->127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-22: set socket timeout to 10800000
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/timeouts HTTP/1.1
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/timeouts HTTP/1.1
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 >> Content-Length: 30
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 >> Connection: Keep-Alive
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/timeouts HTTP/1.1[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 >> "Content-Length: 30[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 >> "[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 >> "{"type":"implicit","ms":10000}"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 << "connection: close[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 << "content-length: 94[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 << "date: Mon, 08 May 2017 12:39:17 GMT[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 << "[\r][\n]"
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 << HTTP/1.1 200 OK
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 << connection: close
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 << content-length: 94
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 << server: httpd.js
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-22 << date: Mon, 08 May 2017 12:39:17 GMT
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-22 << "{"name":"setTimeout","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-22: Close connection
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 22][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:17org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:17org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 23][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19732<->127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-23: set socket timeout to 10800000
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 >> Content-Length: 34
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 >> Connection: Keep-Alive
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 >> "Content-Length: 34[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 >> "[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 >> "{"using":"id","value":"id_client"}"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 << "connection: close[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 << "date: Mon, 08 May 2017 12:39:17 GMT[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 << "[\r][\n]"
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 << HTTP/1.1 200 OK
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 << connection: close
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 << content-length: 224
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 << server: httpd.js
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-23 << date: Mon, 08 May 2017 12:39:17 GMT
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-23 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{0daada83-7933-4728-9a1c-76cc6a34e439}","element-6066-11e4-a52e-4f735466cecf":"{0daada83-7933-4728-9a1c-76cc6a34e439}"}}"
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-23: Close connection
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 23][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:17org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:17org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 24][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19733<->127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-24: set socket timeout to 10800000
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B0daada83-7933-4728-9a1c-76cc6a34e439%7D/value HTTP/1.1
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B0daada83-7933-4728-9a1c-76cc6a34e439%7D/value HTTP/1.1
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 >> Content-Length: 76
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 >> Connection: Keep-Alive
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B0daada83-7933-4728-9a1c-76cc6a34e439%7D/value HTTP/1.1[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 >> "Content-Length: 76[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 >> "[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 >> "{"id":"{0daada83-7933-4728-9a1c-76cc6a34e439}","value":["WayBillAsService"]}"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 << "connection: close[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 << "content-length: 101[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 << "date: Mon, 08 May 2017 12:39:17 GMT[\r][\n]"
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 << "[\r][\n]"
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 << HTTP/1.1 200 OK
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 << connection: close
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 << content-length: 101
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 << server: httpd.js
+08/05/2017 18:09:17org.apache.http.headers http-outgoing-24 << date: Mon, 08 May 2017 12:39:17 GMT
+08/05/2017 18:09:17org.apache.http.wire http-outgoing-24 << "{"name":"sendKeysToElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:09:17org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-24: Close connection
+08/05/2017 18:09:17org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 24][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:22org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:22org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 25][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19735<->127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-25: set socket timeout to 10800000
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 >> Content-Length: 34
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 >> Connection: Keep-Alive
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 >> "Content-Length: 34[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 >> "[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 >> "{"using":"id","value":"id_client"}"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 << "connection: close[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 << "date: Mon, 08 May 2017 12:39:22 GMT[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 << "[\r][\n]"
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 << HTTP/1.1 200 OK
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 << connection: close
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 << content-length: 224
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 << server: httpd.js
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-25 << date: Mon, 08 May 2017 12:39:22 GMT
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-25 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{0daada83-7933-4728-9a1c-76cc6a34e439}","element-6066-11e4-a52e-4f735466cecf":"{0daada83-7933-4728-9a1c-76cc6a34e439}"}}"
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-25: Close connection
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 25][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:22org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:22org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 26][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19736<->127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-26: set socket timeout to 10800000
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B0daada83-7933-4728-9a1c-76cc6a34e439%7D/value HTTP/1.1
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B0daada83-7933-4728-9a1c-76cc6a34e439%7D/value HTTP/1.1
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 >> Content-Length: 63
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 >> Connection: Keep-Alive
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B0daada83-7933-4728-9a1c-76cc6a34e439%7D/value HTTP/1.1[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 >> "Content-Length: 63[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 >> "[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 >> "{"id":"{0daada83-7933-4728-9a1c-76cc6a34e439}","value":["[0xee][0x80][0x95]"]}"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 << "connection: close[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 << "content-length: 101[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 << "date: Mon, 08 May 2017 12:39:22 GMT[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 << "[\r][\n]"
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 << HTTP/1.1 200 OK
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 << connection: close
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 << content-length: 101
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 << server: httpd.js
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-26 << date: Mon, 08 May 2017 12:39:22 GMT
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-26 << "{"name":"sendKeysToElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-26: Close connection
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 26][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:22org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:22org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 27][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19737<->127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-27: set socket timeout to 10800000
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 >> Content-Length: 34
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 >> Connection: Keep-Alive
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 >> "Content-Length: 34[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 >> "[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 >> "{"using":"id","value":"id_client"}"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 << "connection: close[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 << "date: Mon, 08 May 2017 12:39:22 GMT[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 << "[\r][\n]"
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 << HTTP/1.1 200 OK
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 << connection: close
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 << content-length: 224
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 << server: httpd.js
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-27 << date: Mon, 08 May 2017 12:39:22 GMT
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-27 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{0daada83-7933-4728-9a1c-76cc6a34e439}","element-6066-11e4-a52e-4f735466cecf":"{0daada83-7933-4728-9a1c-76cc6a34e439}"}}"
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-27: Close connection
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 27][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:22org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:22org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 28][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19738<->127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-28: set socket timeout to 10800000
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B0daada83-7933-4728-9a1c-76cc6a34e439%7D/value HTTP/1.1
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B0daada83-7933-4728-9a1c-76cc6a34e439%7D/value HTTP/1.1
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 >> Content-Length: 63
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 >> Connection: Keep-Alive
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B0daada83-7933-4728-9a1c-76cc6a34e439%7D/value HTTP/1.1[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 >> "Content-Length: 63[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 >> "[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 >> "{"id":"{0daada83-7933-4728-9a1c-76cc6a34e439}","value":["[0xee][0x80][0x87]"]}"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 << "connection: close[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 << "content-length: 101[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 << "date: Mon, 08 May 2017 12:39:22 GMT[\r][\n]"
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 << "[\r][\n]"
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 << HTTP/1.1 200 OK
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 << connection: close
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 << content-length: 101
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 << server: httpd.js
+08/05/2017 18:09:22org.apache.http.headers http-outgoing-28 << date: Mon, 08 May 2017 12:39:22 GMT
+08/05/2017 18:09:22org.apache.http.wire http-outgoing-28 << "{"name":"sendKeysToElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:09:22org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-28: Close connection
+08/05/2017 18:09:22org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:22org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 28][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 29][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19739<->127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-29: set socket timeout to 10800000
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 >> Content-Length: 40
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 >> Connection: Keep-Alive
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 >> "Content-Length: 40[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 >> "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 >> "{"using":"id","value":"id_package_type"}"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 << "connection: close[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 << "date: Mon, 08 May 2017 12:39:27 GMT[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 << "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 << HTTP/1.1 200 OK
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 << connection: close
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 << content-length: 224
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 << server: httpd.js
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-29 << date: Mon, 08 May 2017 12:39:27 GMT
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-29 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{979b7ca7-5bae-42f0-bf72-c351eb3fe1a2}","element-6066-11e4-a52e-4f735466cecf":"{979b7ca7-5bae-42f0-bf72-c351eb3fe1a2}"}}"
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-29: Close connection
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 29][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 30][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19740<->127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-30: set socket timeout to 10800000
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Executing request GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B979b7ca7-5bae-42f0-bf72-c351eb3fe1a2%7D/name HTTP/1.1
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 >> GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B979b7ca7-5bae-42f0-bf72-c351eb3fe1a2%7D/name HTTP/1.1
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 >> Cache-Control: no-cache
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 >> Connection: Keep-Alive
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 >> "GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B979b7ca7-5bae-42f0-bf72-c351eb3fe1a2%7D/name HTTP/1.1[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 >> "Cache-Control: no-cache[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 >> "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 << "connection: close[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 << "content-length: 107[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 << "date: Mon, 08 May 2017 12:39:27 GMT[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 << "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 << HTTP/1.1 200 OK
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 << connection: close
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 << content-length: 107
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 << server: httpd.js
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-30 << date: Mon, 08 May 2017 12:39:27 GMT
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-30 << "{"name":"getElementTagName","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":"select"}"
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-30: Close connection
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 30][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 31][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19741<->127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-31: set socket timeout to 10800000
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 >> Content-Length: 40
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 >> Connection: Keep-Alive
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 >> "Content-Length: 40[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 >> "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 >> "{"using":"id","value":"id_package_type"}"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 << "connection: close[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 << "date: Mon, 08 May 2017 12:39:27 GMT[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 << "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 << HTTP/1.1 200 OK
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 << connection: close
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 << content-length: 224
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 << server: httpd.js
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-31 << date: Mon, 08 May 2017 12:39:27 GMT
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-31 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{979b7ca7-5bae-42f0-bf72-c351eb3fe1a2}","element-6066-11e4-a52e-4f735466cecf":"{979b7ca7-5bae-42f0-bf72-c351eb3fe1a2}"}}"
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-31: Close connection
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 31][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 32][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19742<->127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-32: set socket timeout to 10800000
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Executing request GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B979b7ca7-5bae-42f0-bf72-c351eb3fe1a2%7D/attribute/multiple HTTP/1.1
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 >> GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B979b7ca7-5bae-42f0-bf72-c351eb3fe1a2%7D/attribute/multiple HTTP/1.1
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 >> Cache-Control: no-cache
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 >> Connection: Keep-Alive
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 >> "GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B979b7ca7-5bae-42f0-bf72-c351eb3fe1a2%7D/attribute/multiple HTTP/1.1[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 >> "Cache-Control: no-cache[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 >> "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 << "connection: close[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 << "content-length: 105[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 << "date: Mon, 08 May 2017 12:39:27 GMT[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 << "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 << HTTP/1.1 200 OK
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 << connection: close
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 << content-length: 105
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 << server: httpd.js
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-32 << date: Mon, 08 May 2017 12:39:27 GMT
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-32 << "{"name":"getElementAttribute","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":null}"
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-32: Close connection
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 32][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 33][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19743<->127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-33: set socket timeout to 10800000
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 >> Content-Length: 40
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 >> Connection: Keep-Alive
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 >> "Content-Length: 40[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 >> "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 >> "{"using":"id","value":"id_package_type"}"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 << "connection: close[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 << "date: Mon, 08 May 2017 12:39:27 GMT[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 << "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 << HTTP/1.1 200 OK
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 << connection: close
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 << content-length: 224
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 << server: httpd.js
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-33 << date: Mon, 08 May 2017 12:39:27 GMT
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-33 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{979b7ca7-5bae-42f0-bf72-c351eb3fe1a2}","element-6066-11e4-a52e-4f735466cecf":"{979b7ca7-5bae-42f0-bf72-c351eb3fe1a2}"}}"
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-33: Close connection
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 33][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 34][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19744<->127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-34: set socket timeout to 10800000
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B979b7ca7-5bae-42f0-bf72-c351eb3fe1a2%7D/elements HTTP/1.1
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B979b7ca7-5bae-42f0-bf72-c351eb3fe1a2%7D/elements HTTP/1.1
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 >> Content-Length: 83
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 >> Connection: Keep-Alive
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B979b7ca7-5bae-42f0-bf72-c351eb3fe1a2%7D/elements HTTP/1.1[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 >> "Content-Length: 83[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 >> "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 >> "{"id":"{979b7ca7-5bae-42f0-bf72-c351eb3fe1a2}","using":"tag name","value":"option"}"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 << "connection: close[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 << "content-length: 892[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 << "date: Mon, 08 May 2017 12:39:27 GMT[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 << "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 << HTTP/1.1 200 OK
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 << connection: close
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 << content-length: 892
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 << server: httpd.js
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-34 << date: Mon, 08 May 2017 12:39:27 GMT
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-34 << "{"name":"findChildElements","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":[{"ELEMENT":"{8301e156-7742-4b0c-849f-c127ae348cdc}","element-6066-11e4-a52e-4f735466cecf":"{8301e156-7742-4b0c-849f-c127ae348cdc}"},{"ELEMENT":"{280f91a2-df81-45fc-a233-2de8f15081c5}","element-6066-11e4-a52e-4f735466cecf":"{280f91a2-df81-45fc-a233-2de8f15081c5}"},{"ELEMENT":"{6182db10-d2c5-4fc9-93cb-716c12bf5bec}","element-6066-11e4-a52e-4f735466cecf":"{6182db10-d2c5-4fc9-93cb-716c12bf5bec}"},{"ELEMENT":"{bd09fa91-b71f-4c00-acb6-b4f2278ba952}","element-6066-11e4-a52e-4f735466cecf":"{bd09fa91-b71f-4c00-acb6-b4f2278ba952}"},{"ELEMENT":"{9ab9076e-55fb-4745-b6f0-e49d043f3a4e}","element-6066-11e4-a52e-4f735466cecf":"{9ab9076e-55fb-4745-b6f0-e49d043f3a4e}"},{"ELEMENT":"{887fda72-54e9-4abb-ae7e-e4363c9515e0}","element-6066-11e4-a52e-4f735466cecf":"{887fda72-54e9-4abb-ae7e-e4363c9515e0}"}]}"
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-34: Close connection
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 34][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 35][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19745<->127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-35: set socket timeout to 10800000
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Executing request GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B8301e156-7742-4b0c-849f-c127ae348cdc%7D/attribute/index HTTP/1.1
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 >> GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B8301e156-7742-4b0c-849f-c127ae348cdc%7D/attribute/index HTTP/1.1
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 >> Cache-Control: no-cache
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 >> Connection: Keep-Alive
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 >> "GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B8301e156-7742-4b0c-849f-c127ae348cdc%7D/attribute/index HTTP/1.1[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 >> "Cache-Control: no-cache[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 >> "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 << "connection: close[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 << "content-length: 104[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 << "date: Mon, 08 May 2017 12:39:27 GMT[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 << "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 << HTTP/1.1 200 OK
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 << connection: close
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 << content-length: 104
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 << server: httpd.js
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-35 << date: Mon, 08 May 2017 12:39:27 GMT
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-35 << "{"name":"getElementAttribute","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":"0"}"
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-35: Close connection
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 35][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:27org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 36][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19746<->127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-36: set socket timeout to 10800000
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Executing request GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B8301e156-7742-4b0c-849f-c127ae348cdc%7D/selected HTTP/1.1
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 >> GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B8301e156-7742-4b0c-849f-c127ae348cdc%7D/selected HTTP/1.1
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 >> Cache-Control: no-cache
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 >> Connection: Keep-Alive
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 >> "GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B8301e156-7742-4b0c-849f-c127ae348cdc%7D/selected HTTP/1.1[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 >> "Cache-Control: no-cache[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 >> "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 << "connection: close[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 << "content-length: 103[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 << "date: Mon, 08 May 2017 12:39:27 GMT[\r][\n]"
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 << "[\r][\n]"
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 << HTTP/1.1 200 OK
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 << connection: close
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 << content-length: 103
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 << server: httpd.js
+08/05/2017 18:09:27org.apache.http.headers http-outgoing-36 << date: Mon, 08 May 2017 12:39:27 GMT
+08/05/2017 18:09:27org.apache.http.wire http-outgoing-36 << "{"name":"isElementSelected","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":true}"
+08/05/2017 18:09:27org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-36: Close connection
+08/05/2017 18:09:27org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:27org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 36][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:32org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:32org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 37][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19752<->127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-37: set socket timeout to 10800000
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 >> Content-Length: 72
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 >> Connection: Keep-Alive
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 >> "Content-Length: 72[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 >> "[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 >> "{"using":"xpath","value":".//*[@id='id_incoming_center_chosen']/a/span"}"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 << "connection: close[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 << "date: Mon, 08 May 2017 12:39:32 GMT[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 << "[\r][\n]"
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 << HTTP/1.1 200 OK
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 << connection: close
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 << content-length: 224
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 << server: httpd.js
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-37 << date: Mon, 08 May 2017 12:39:32 GMT
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-37 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{a3586be2-136f-427d-9458-7b45adf31d09}","element-6066-11e4-a52e-4f735466cecf":"{a3586be2-136f-427d-9458-7b45adf31d09}"}}"
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-37: Close connection
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 37][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:32org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:32org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 38][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19753<->127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-38: set socket timeout to 10800000
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Ba3586be2-136f-427d-9458-7b45adf31d09%7D/click HTTP/1.1
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Ba3586be2-136f-427d-9458-7b45adf31d09%7D/click HTTP/1.1
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 >> Content-Length: 47
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 >> Connection: Keep-Alive
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Ba3586be2-136f-427d-9458-7b45adf31d09%7D/click HTTP/1.1[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 >> "Content-Length: 47[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 >> "[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 >> "{"id":"{a3586be2-136f-427d-9458-7b45adf31d09}"}"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 << "connection: close[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 << "content-length: 98[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 << "date: Mon, 08 May 2017 12:39:32 GMT[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 << "[\r][\n]"
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 << HTTP/1.1 200 OK
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 << connection: close
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 << content-length: 98
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 << server: httpd.js
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-38 << date: Mon, 08 May 2017 12:39:32 GMT
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-38 << "{"name":"clickElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":"ok"}"
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-38: Close connection
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 38][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:32org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:32org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 39][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19754<->127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-39: set socket timeout to 10800000
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 >> Content-Length: 79
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 >> Connection: Keep-Alive
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 >> "Content-Length: 79[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 >> "[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 >> "{"using":"xpath","value":".//*[@id='id_incoming_center_chosen']/div/div/input"}"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 << "connection: close[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 << "date: Mon, 08 May 2017 12:39:32 GMT[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 << "[\r][\n]"
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 << HTTP/1.1 200 OK
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 << connection: close
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 << content-length: 224
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 << server: httpd.js
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-39 << date: Mon, 08 May 2017 12:39:32 GMT
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-39 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{5a7bd0c3-7d9c-4cde-a1c6-db25674594a6}","element-6066-11e4-a52e-4f735466cecf":"{5a7bd0c3-7d9c-4cde-a1c6-db25674594a6}"}}"
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-39: Close connection
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 39][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:32org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:32org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:32org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 40][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19755<->127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-40: set socket timeout to 10800000
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B5a7bd0c3-7d9c-4cde-a1c6-db25674594a6%7D/value HTTP/1.1
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:32org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-40 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B5a7bd0c3-7d9c-4cde-a1c6-db25674594a6%7D/value HTTP/1.1
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-40 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-40 >> Content-Length: 69
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-40 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-40 >> Connection: Keep-Alive
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-40 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:32org.apache.http.headers http-outgoing-40 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-40 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B5a7bd0c3-7d9c-4cde-a1c6-db25674594a6%7D/value HTTP/1.1[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-40 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-40 >> "Content-Length: 69[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-40 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-40 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-40 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-40 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-40 >> "[\r][\n]"
+08/05/2017 18:09:32org.apache.http.wire http-outgoing-40 >> "{"id":"{5a7bd0c3-7d9c-4cde-a1c6-db25674594a6}","value":["delhi_hub"]}"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-40 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-40 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-40 << "connection: close[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-40 << "content-length: 101[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-40 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-40 << "date: Mon, 08 May 2017 12:39:33 GMT[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-40 << "[\r][\n]"
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-40 << HTTP/1.1 200 OK
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-40 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-40 << connection: close
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-40 << content-length: 101
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-40 << server: httpd.js
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-40 << date: Mon, 08 May 2017 12:39:33 GMT
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-40 << "{"name":"sendKeysToElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:09:33org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-40: Close connection
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:33org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 40][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:33org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:33org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:33org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:33org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 41][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:33org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:33org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19756<->127.0.0.1:7055
+08/05/2017 18:09:33org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-41: set socket timeout to 10800000
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/elements HTTP/1.1
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/elements HTTP/1.1
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 >> Content-Length: 75
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 >> Connection: Keep-Alive
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/elements HTTP/1.1[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 >> "Content-Length: 75[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 >> "[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 >> "{"using":"xpath","value":".//*[@id='id_incoming_center_chosen']/div/ul/li"}"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 << "connection: close[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 << "content-length: 227[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 << "date: Mon, 08 May 2017 12:39:33 GMT[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 << "[\r][\n]"
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 << HTTP/1.1 200 OK
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 << connection: close
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 << content-length: 227
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 << server: httpd.js
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-41 << date: Mon, 08 May 2017 12:39:33 GMT
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-41 << "{"name":"findElements","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":[{"ELEMENT":"{2a1f2bdf-7405-4698-8ad9-9c8e91f3d8ee}","element-6066-11e4-a52e-4f735466cecf":"{2a1f2bdf-7405-4698-8ad9-9c8e91f3d8ee}"}]}"
+08/05/2017 18:09:33org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-41: Close connection
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:33org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 41][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:33org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:33org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:33org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:33org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 42][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:33org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:33org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19757<->127.0.0.1:7055
+08/05/2017 18:09:33org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-42: set socket timeout to 10800000
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Executing request GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B2a1f2bdf-7405-4698-8ad9-9c8e91f3d8ee%7D/text HTTP/1.1
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 >> GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B2a1f2bdf-7405-4698-8ad9-9c8e91f3d8ee%7D/text HTTP/1.1
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 >> Cache-Control: no-cache
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 >> Connection: Keep-Alive
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 >> "GET /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B2a1f2bdf-7405-4698-8ad9-9c8e91f3d8ee%7D/text HTTP/1.1[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 >> "Cache-Control: no-cache[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 >> "[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 << "connection: close[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 << "content-length: 107[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 << "date: Mon, 08 May 2017 12:39:33 GMT[\r][\n]"
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 << "[\r][\n]"
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 << HTTP/1.1 200 OK
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 << connection: close
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 << content-length: 107
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 << server: httpd.js
+08/05/2017 18:09:33org.apache.http.headers http-outgoing-42 << date: Mon, 08 May 2017 12:39:33 GMT
+08/05/2017 18:09:33org.apache.http.wire http-outgoing-42 << "{"name":"getElementText","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":"Delhi_Hub"}"
+08/05/2017 18:09:33org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-42: Close connection
+08/05/2017 18:09:33org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:33org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 42][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:36org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:36org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:36org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:36org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 43][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:36org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:36org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:36org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19759<->127.0.0.1:7055
+08/05/2017 18:09:36org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-43: set socket timeout to 10800000
+08/05/2017 18:09:36org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B2a1f2bdf-7405-4698-8ad9-9c8e91f3d8ee%7D/click HTTP/1.1
+08/05/2017 18:09:36org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:36org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B2a1f2bdf-7405-4698-8ad9-9c8e91f3d8ee%7D/click HTTP/1.1
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 >> Content-Length: 47
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 >> Connection: Keep-Alive
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B2a1f2bdf-7405-4698-8ad9-9c8e91f3d8ee%7D/click HTTP/1.1[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 >> "Content-Length: 47[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 >> "[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 >> "{"id":"{2a1f2bdf-7405-4698-8ad9-9c8e91f3d8ee}"}"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 << "connection: close[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 << "content-length: 98[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 << "date: Mon, 08 May 2017 12:39:36 GMT[\r][\n]"
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 << "[\r][\n]"
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 << HTTP/1.1 200 OK
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 << connection: close
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 << content-length: 98
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 << server: httpd.js
+08/05/2017 18:09:36org.apache.http.headers http-outgoing-43 << date: Mon, 08 May 2017 12:39:36 GMT
+08/05/2017 18:09:36org.apache.http.wire http-outgoing-43 << "{"name":"clickElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":"ok"}"
+08/05/2017 18:09:36org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-43: Close connection
+08/05/2017 18:09:36org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:36org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 43][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:46org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:46org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 44][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19761<->127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-44: set socket timeout to 10800000
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 >> Content-Length: 57
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 >> Connection: Keep-Alive
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 >> "Content-Length: 57[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 >> "[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 >> "{"using":"xpath","value":"//input[@id='id_upload_file']"}"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 << "connection: close[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 << "date: Mon, 08 May 2017 12:39:46 GMT[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 << "[\r][\n]"
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 << HTTP/1.1 200 OK
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 << connection: close
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 << content-length: 224
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 << server: httpd.js
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-44 << date: Mon, 08 May 2017 12:39:46 GMT
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-44 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{17cd48aa-9f46-45a4-a33a-fa66535c680c}","element-6066-11e4-a52e-4f735466cecf":"{17cd48aa-9f46-45a4-a33a-fa66535c680c}"}}"
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-44: Close connection
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 44][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:46org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:46org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 45][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19762<->127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-45: set socket timeout to 10800000
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B17cd48aa-9f46-45a4-a33a-fa66535c680c%7D/value HTTP/1.1
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B17cd48aa-9f46-45a4-a33a-fa66535c680c%7D/value HTTP/1.1
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 >> Content-Length: 143
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 >> Connection: Keep-Alive
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7B17cd48aa-9f46-45a4-a33a-fa66535c680c%7D/value HTTP/1.1[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 >> "Content-Length: 143[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 >> "[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 >> "{"id":"{17cd48aa-9f46-45a4-a33a-fa66535c680c}","value":["D:\\java Automation1\\constellation_automation_suit\\Resources\\PackageManifest.xls"]}"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 << "connection: close[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 << "content-length: 101[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 << "date: Mon, 08 May 2017 12:39:46 GMT[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 << "[\r][\n]"
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 << HTTP/1.1 200 OK
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 << connection: close
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 << content-length: 101
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 << server: httpd.js
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-45 << date: Mon, 08 May 2017 12:39:46 GMT
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-45 << "{"name":"sendKeysToElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-45: Close connection
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 45][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:46org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:46org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 46][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19763<->127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-46: set socket timeout to 10800000
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 >> Content-Length: 34
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 >> Connection: Keep-Alive
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element HTTP/1.1[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 >> "Content-Length: 34[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 >> "[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 >> "{"using":"id","value":"id_submit"}"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 << "connection: close[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 << "content-length: 224[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 << "date: Mon, 08 May 2017 12:39:46 GMT[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 << "[\r][\n]"
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 << HTTP/1.1 200 OK
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 << connection: close
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 << content-length: 224
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 << server: httpd.js
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-46 << date: Mon, 08 May 2017 12:39:46 GMT
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-46 << "{"name":"findElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":{"ELEMENT":"{c87b7fd1-5ed7-40cf-b328-d8901c909ce0}","element-6066-11e4-a52e-4f735466cecf":"{c87b7fd1-5ed7-40cf-b328-d8901c909ce0}"}}"
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-46: Close connection
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 46][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:46org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:09:46org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:09:46org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 47][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19764<->127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-47: set socket timeout to 10800000
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bc87b7fd1-5ed7-40cf-b328-d8901c909ce0%7D/click HTTP/1.1
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:09:46org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-47 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bc87b7fd1-5ed7-40cf-b328-d8901c909ce0%7D/click HTTP/1.1
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-47 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-47 >> Content-Length: 47
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-47 >> Host: 127.0.0.1:7055
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-47 >> Connection: Keep-Alive
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-47 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:09:46org.apache.http.headers http-outgoing-47 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-47 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/element/%7Bc87b7fd1-5ed7-40cf-b328-d8901c909ce0%7D/click HTTP/1.1[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-47 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-47 >> "Content-Length: 47[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-47 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-47 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-47 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-47 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-47 >> "[\r][\n]"
+08/05/2017 18:09:46org.apache.http.wire http-outgoing-47 >> "{"id":"{c87b7fd1-5ed7-40cf-b328-d8901c909ce0}"}"
+08/05/2017 18:09:52org.apache.http.wire http-outgoing-47 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:09:52org.apache.http.wire http-outgoing-47 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:09:52org.apache.http.wire http-outgoing-47 << "connection: close[\r][\n]"
+08/05/2017 18:09:52org.apache.http.wire http-outgoing-47 << "content-length: 98[\r][\n]"
+08/05/2017 18:09:52org.apache.http.wire http-outgoing-47 << "server: httpd.js[\r][\n]"
+08/05/2017 18:09:52org.apache.http.wire http-outgoing-47 << "date: Mon, 08 May 2017 12:39:52 GMT[\r][\n]"
+08/05/2017 18:09:52org.apache.http.wire http-outgoing-47 << "[\r][\n]"
+08/05/2017 18:09:52org.apache.http.headers http-outgoing-47 << HTTP/1.1 200 OK
+08/05/2017 18:09:52org.apache.http.headers http-outgoing-47 << content-type: application/json; charset=UTF-8
+08/05/2017 18:09:52org.apache.http.headers http-outgoing-47 << connection: close
+08/05/2017 18:09:52org.apache.http.headers http-outgoing-47 << content-length: 98
+08/05/2017 18:09:52org.apache.http.headers http-outgoing-47 << server: httpd.js
+08/05/2017 18:09:52org.apache.http.headers http-outgoing-47 << date: Mon, 08 May 2017 12:39:52 GMT
+08/05/2017 18:09:52org.apache.http.wire http-outgoing-47 << "{"name":"clickElement","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":"ok"}"
+08/05/2017 18:09:52org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-47: Close connection
+08/05/2017 18:09:52org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:09:52org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 47][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:10:17org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+08/05/2017 18:10:17org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+08/05/2017 18:10:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:10:17org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 48][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+08/05/2017 18:10:17org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://127.0.0.1:7055
+08/05/2017 18:10:17org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to /127.0.0.1:7055
+08/05/2017 18:10:17org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:19776<->127.0.0.1:7055
+08/05/2017 18:10:17org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-48: set socket timeout to 10800000
+08/05/2017 18:10:17org.apache.http.impl.execchain.MainClientExec Executing request POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/refresh HTTP/1.1
+08/05/2017 18:10:17org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+08/05/2017 18:10:17org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+08/05/2017 18:10:17org.apache.http.headers http-outgoing-48 >> POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/refresh HTTP/1.1
+08/05/2017 18:10:17org.apache.http.headers http-outgoing-48 >> Content-Type: application/json; charset=utf-8
+08/05/2017 18:10:17org.apache.http.headers http-outgoing-48 >> Content-Length: 2
+08/05/2017 18:10:17org.apache.http.headers http-outgoing-48 >> Host: 127.0.0.1:7055
+08/05/2017 18:10:17org.apache.http.headers http-outgoing-48 >> Connection: Keep-Alive
+08/05/2017 18:10:17org.apache.http.headers http-outgoing-48 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)
+08/05/2017 18:10:17org.apache.http.headers http-outgoing-48 >> Accept-Encoding: gzip,deflate
+08/05/2017 18:10:17org.apache.http.wire http-outgoing-48 >> "POST /hub/session/7819ead4-2cf0-419b-8b56-f9b5de614843/refresh HTTP/1.1[\r][\n]"
+08/05/2017 18:10:17org.apache.http.wire http-outgoing-48 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+08/05/2017 18:10:17org.apache.http.wire http-outgoing-48 >> "Content-Length: 2[\r][\n]"
+08/05/2017 18:10:17org.apache.http.wire http-outgoing-48 >> "Host: 127.0.0.1:7055[\r][\n]"
+08/05/2017 18:10:17org.apache.http.wire http-outgoing-48 >> "Connection: Keep-Alive[\r][\n]"
+08/05/2017 18:10:17org.apache.http.wire http-outgoing-48 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_91)[\r][\n]"
+08/05/2017 18:10:17org.apache.http.wire http-outgoing-48 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08/05/2017 18:10:17org.apache.http.wire http-outgoing-48 >> "[\r][\n]"
+08/05/2017 18:10:17org.apache.http.wire http-outgoing-48 >> "{}"
+08/05/2017 18:10:20org.apache.http.wire http-outgoing-48 << "HTTP/1.1 200 OK[\r][\n]"
+08/05/2017 18:10:20org.apache.http.wire http-outgoing-48 << "content-type: application/json; charset=UTF-8[\r][\n]"
+08/05/2017 18:10:20org.apache.http.wire http-outgoing-48 << "connection: close[\r][\n]"
+08/05/2017 18:10:20org.apache.http.wire http-outgoing-48 << "content-length: 91[\r][\n]"
+08/05/2017 18:10:20org.apache.http.wire http-outgoing-48 << "server: httpd.js[\r][\n]"
+08/05/2017 18:10:20org.apache.http.wire http-outgoing-48 << "date: Mon, 08 May 2017 12:40:20 GMT[\r][\n]"
+08/05/2017 18:10:20org.apache.http.wire http-outgoing-48 << "[\r][\n]"
+08/05/2017 18:10:20org.apache.http.headers http-outgoing-48 << HTTP/1.1 200 OK
+08/05/2017 18:10:20org.apache.http.headers http-outgoing-48 << content-type: application/json; charset=UTF-8
+08/05/2017 18:10:20org.apache.http.headers http-outgoing-48 << connection: close
+08/05/2017 18:10:20org.apache.http.headers http-outgoing-48 << content-length: 91
+08/05/2017 18:10:20org.apache.http.headers http-outgoing-48 << server: httpd.js
+08/05/2017 18:10:20org.apache.http.headers http-outgoing-48 << date: Mon, 08 May 2017 12:40:20 GMT
+08/05/2017 18:10:20org.apache.http.wire http-outgoing-48 << "{"name":"refresh","sessionId":"7819ead4-2cf0-419b-8b56-f9b5de614843","status":0,"value":""}"
+08/05/2017 18:10:20org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-48: Close connection
+08/05/2017 18:10:20org.apache.http.impl.execchain.MainClientExec Connection discarded
+08/05/2017 18:10:20org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 48][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+08/05/2017 18:10:21utility.Log Passed       |       fileManifestation()       |       Uploadcmu
